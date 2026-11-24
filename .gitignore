@@ -1,0 +1,29 @@
+﻿# Environnement virtuel Python
+.venv/
+venv/
+
+# Cache Python et tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.python-packages*/
+.image-tag
+
+# Bases de données locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets et variables locales
+.env
+.env.*
+
+# Fichiers générés par les éditeurs
+.vscode/
+.idea/
+
+# Pièces justificatives et frontend
+uploads/
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
